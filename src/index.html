@@ -19,7 +19,8 @@
       <fieldset class="container">
         <legend> Personal information</legend>
 
-        <label class="form-field">Surname:
+        <label class="form-field">
+          Surname:
           <input 
             type="text" 
             name="surname"
@@ -28,7 +29,8 @@
           >
         </label>
 
-        <label class="form-field">Name:
+        <label class="form-field">
+          Name:
           <input
             type="text"
             name="name"
@@ -37,7 +39,8 @@
           >
         </label>
 
-        <label class="form-field">How old are You?
+        <label class="form-field">
+          How old are You?
           <input
             type="number"
             name="age"
@@ -48,7 +51,8 @@
           >
         </label>
 
-        <label class="form-field">Full date of birth:
+        <label class="form-field">
+          Full date of birth:
           <input
             type="date"
             name="birthday"
@@ -56,7 +60,8 @@
           >
         </label>
 
-        <label class="form-field">I accept the term of the agreement
+        <label class="form-field">
+          I accept the term of the agreement
           <input
             type="checkbox"
             name="agree"
@@ -67,7 +72,8 @@
       <fieldset class="container">
         <legend>Registration</legend>
 
-        <label class="form-field">E-mail:
+        <label class="form-field">
+          E-mail:
           <input
             type="email"
             name="email"
@@ -76,7 +82,8 @@
           >
         </label>
 
-        <label class="form-field">Password:
+        <label class="form-field">
+          Password:
           <input
             type="password"
             name="password"
@@ -88,35 +95,44 @@
 
       <fieldset class="container">
         <legend>An interesting fact about you!</legend>
-
-        <label class="form-field">Do you love cats?
+        <div class="form-field">
+          Do you love cats?
           <input
             type="radio"
             name="change"
+            id="yes"
           >
+          <label for="yes">
             Yes
+          </label>
           <input
-            type="radio" 
+            type="radio"
             name="change"
+            id="no"
           >
+          <label for="no">
             No
-        </label>
+          </label>
+        </div>
 
-        <label class="form-field">What is your favorite color?
+        <label class="form-field">
+          What is your favorite color?
           <input
             type="color"
             name="color"
           >
         </label>
 
-        <label class="form-field">What time do you go to bed?
+        <label class="form-field">
+          What time do you go to bed?
           <input
             type="time"
             name="time"
           >
         </label>
 
-        <label class="form-field">What are your favorite brand of cars?
+        <label class="form-field">
+          What are your favorite brand of cars?
           <select
             name="car"
             multiple
@@ -124,11 +140,11 @@
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
-            <option ></option>
           </select>
         </label>
 
-        <label class="form-field">How do you rate our work?
+        <label class="form-field">
+          How do you rate our work?
           <input
             type="range"
             name="toRateWork"
@@ -139,7 +155,8 @@
       <fieldset class="container">
         <legend>Additional info</legend>
 
-        <label class="form-field">Comments:
+        <label class="form-field">
+          Comments:
           <textarea
             name="feedback"
             cols="20"
@@ -147,7 +164,8 @@
           ></textarea>
         </label>
 
-        <label class="form-field">Would you recommend us?
+        <label class="form-field">
+          Would you recommend us?
           <select name="choose">
             <option value="yes">
               yes
